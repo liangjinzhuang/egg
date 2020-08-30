@@ -5,9 +5,6 @@
 egg + redis + jwt
 ## 初始化
     npm install
-## 运行
-    npm run dev
-    open http://localhost:7001/
 ## 连接数据库
     config.default.js
     const mysql = {	
@@ -38,6 +35,9 @@ egg + redis + jwt
           db: 0,
         }
       };
+## 运行
+    npm run dev
+    open http://localhost:7001/
 
 # example
 
