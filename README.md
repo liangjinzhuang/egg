@@ -29,6 +29,15 @@ egg + redis + jwt
       // 是否加载到 agent 上，默认关闭	
       agent: false,	
     };
+## 连接redis服务
+     config.redis = {
+        client: {
+          port: 6379, // Redis port
+          host: '127.0.0.1', // Redis host
+          password: '',
+          db: 0,
+        }
+      };
 
 # example
 
