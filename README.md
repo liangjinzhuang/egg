@@ -27,6 +27,7 @@ egg + redis + jwt
       agent: false,	
     };
 ## 连接redis服务
+    config.default.js
      config.redis = {
         client: {
           port: 6379, // Redis port
